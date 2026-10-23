@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.npz
+data/*.log
+results/models/
+results/predictions_*.npz
+results/*.log
+.venv/
+data/check/
+results/decoupled/models/
+results/decoupled/predictions_*.npz
+results/decoupled/*.log
+results/cross/
+!results/audit.log
